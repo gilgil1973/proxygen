@@ -69,7 +69,7 @@ then
 fi
 
 
-git clone https://github.com/facebook/fbthrift || true
+git clone https://github.com/gilgil1973/fbthrift || true
 cd fbthrift/thrift
 
 # Rebase in case we've already downloaded thrift and folly
