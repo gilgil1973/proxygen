@@ -45,7 +45,7 @@ fi
 
 CXXFLAGS="$STD $CXXFLAGS"
 CXXFLAGS="-fno-strict-aliasing $CXXFLAGS"
-CXXFLAGS="-O3 -g -W -Wall -Wextra -Wno-unused-parameter $CXXFLAGS"
+CXXFLAGS="-O0 -g -W -Wall -Wextra -Wno-unused-parameter $CXXFLAGS"
 CXXFLAGS=" -Wno-missing-field-initializers -Wno-deprecated $CXXFLAGS"
 CXXFLAGS="-DLIBMC_FBTRACE_DISABLE $CXXFLAGS"
 
