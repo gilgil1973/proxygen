@@ -91,7 +91,7 @@ fi
 cd ../..
 autoreconf -ivf
 CPPFLAGS=" -I`pwd`/fbthrift/thrift/folly/ -I`pwd`/fbthrift/" \
-    LDFLAGS="-L`pwd`/fbthrift/thrift/lib/cpp/.libs/ -L`pwd`/fbthrift/thrift/lib/cpp2/.libs/ -L`pwd`/fbthrift/thrift/folly/folly/.libs/" ./configure
+	LDFLAGS="-L`pwd`/fbthrift/thrift/lib/cpp/.libs/ -L`pwd`/fbthrift/thrift/lib/cpp2/.libs/ -L`pwd`/fbthrift/thrift/folly/folly/.libs/" ./configure CXXFLAGS='-g -O0' CFLAGS='-g -O0' CPPFLAGS='-g -O0'
 make -j8
 
 # Run tests
