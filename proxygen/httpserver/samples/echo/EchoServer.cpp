@@ -1,4 +1,5 @@
 /*
+ *
  *  Copyright (c) 2015, Facebook, Inc.
  *  All rights reserved.
  *
@@ -7,6 +8,8 @@
  *  of patent rights can be found in the PATENTS file in the same directory.
  *
  */
+
+#include <gflags/gflags.h>
 #include <folly/Memory.h>
 #include <folly/Portability.h>
 #include <folly/io/async/EventBaseManager.h>

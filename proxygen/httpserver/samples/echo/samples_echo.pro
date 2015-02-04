@@ -10,10 +10,10 @@ QT       -= gui
 QMAKE_CXXFLAGS += -std=c++11
 
 include(/root/proj/fb/proxygen/proxygen.pri)
-include(/root/proj/google/glog/glog.pri)
-include(/root/proj/google/gflags/gflags.pri)
+#include(/root/proj/google/glog/glog.pri)
+#include(/root/proj/google/gflags/gflags.pri)
 
-LIBS += -lglog -lgflags -lgflags_nothreads
+LIBS += -lgflags
 
 TARGET = samples_echo
 CONFIG   += console
